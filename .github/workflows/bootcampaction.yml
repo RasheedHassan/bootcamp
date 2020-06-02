@@ -32,3 +32,4 @@ jobs:
       
     - name: deploying using surge
        run: surge ./build bootcamptest.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+       
